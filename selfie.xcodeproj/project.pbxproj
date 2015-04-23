@@ -16,6 +16,7 @@
 		FC4B519B1ADD7A2600287C69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4B519A1ADD7A2600287C69 /* Images.xcassets */; };
 		FC4B519E1ADD7A2600287C69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B519C1ADD7A2600287C69 /* LaunchScreen.xib */; };
 		FC4B51AA1ADD7A2700287C69 /* selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B51A91ADD7A2700287C69 /* selfieTests.swift */; };
+		FC65D1621AE947A400F8A56A /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65D1611AE947A400F8A56A /* loginViewController.swift */; };
 		FCCB80A71ADE19F0000D43F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCB80A61ADE19F0000D43F8 /* libsqlite3.dylib */; };
 		FCE0EA591ADE0C73008E430B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE0EA581ADE0C73008E430B /* AudioToolbox.framework */; };
 		FCE0EA5B1ADE0C83008E430B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE0EA5A1ADE0C83008E430B /* Foundation.framework */; };
@@ -59,6 +60,7 @@
 		FC4B51A31ADD7A2700287C69 /* selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selfieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4B51A81ADD7A2700287C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4B51A91ADD7A2700287C69 /* selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfieTests.swift; sourceTree = "<group>"; };
+		FC65D1611AE947A400F8A56A /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		FCCB80A61ADE19F0000D43F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		FCE0EA581ADE0C73008E430B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FCE0EA5A1ADE0C83008E430B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -157,6 +159,7 @@
 				FC4B51921ADD7A2600287C69 /* selfie.xcdatamodeld */,
 				FC4B518E1ADD7A2600287C69 /* Supporting Files */,
 				FCE0EA791ADE0E3B008E430B /* selfie-Bridging-Header.h */,
+				FC65D1611AE947A400F8A56A /* loginViewController.swift */,
 			);
 			path = selfie;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				FC2A4FD21AE44B120014D08F /* LockSmithRequest.swift in Sources */,
 				FC2A4FD01AE44ACB0014D08F /* Locksmith.swift in Sources */,
+				FC65D1621AE947A400F8A56A /* loginViewController.swift in Sources */,
 				FC4B51961ADD7A2600287C69 /* ViewController.swift in Sources */,
 				FC4B51911ADD7A2600287C69 /* AppDelegate.swift in Sources */,
 				FC4B51941ADD7A2600287C69 /* selfie.xcdatamodeld in Sources */,

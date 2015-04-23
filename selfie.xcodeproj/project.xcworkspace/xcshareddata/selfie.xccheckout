@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51376D8C-68D2-4402-A1DA-5633A214AD69</string>
+	<key>IDESourceControlProjectName</key>
+	<string>selfie</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F48528505CF5510A345D3AF317071FCAB8E04477</key>
+		<string>https://github.com/sushmachalamalla/signup-signin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>selfie.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F48528505CF5510A345D3AF317071FCAB8E04477</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sushmachalamalla/signup-signin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F48528505CF5510A345D3AF317071FCAB8E04477</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F48528505CF5510A345D3AF317071FCAB8E04477</string>
+			<key>IDESourceControlWCCName</key>
+			<string>selfie</string>
+		</dict>
+	</array>
+</dict>
+</plist>
