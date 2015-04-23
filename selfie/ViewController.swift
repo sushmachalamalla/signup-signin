@@ -40,7 +40,12 @@ class ViewController: UIViewController {
                 (succeeded: Bool!, error: NSError!) -> Void in
                 if error == nil {
                     // Hooray! Let them use the app now.
-                    self.messageLabel.text = "User Signed Up";
+                    //self.messageLabel.text = "User Signed Up";
+                    
+                    dispatch_async(dispatch_get_main_queue()) {
+                        self.performSegueWithIdentifier("homeSegue", sender: self)
+                    }
+                    
                 } else {
                     // Show the errorString somewhere and let the user try again.
                 }
