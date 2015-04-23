@@ -112,25 +112,25 @@
                                 <exclude reference="gMD-NW-5Ez"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Dtz-fx-y0O"/>
-                                <exclude reference="kUP-Bp-b0m"/>
-                                <exclude reference="zt5-vD-1cA"/>
-                                <exclude reference="YCa-Us-nVv"/>
-                                <exclude reference="gnB-bv-R9F"/>
-                                <exclude reference="ohY-a2-LPY"/>
+                                <exclude reference="Th3-1b-8dB"/>
+                                <exclude reference="yvj-uc-IET"/>
                                 <exclude reference="KJw-W7-dV1"/>
                                 <exclude reference="NLB-rZ-Wjb"/>
                                 <exclude reference="iPy-Ow-62J"/>
+                                <exclude reference="YCa-Us-nVv"/>
+                                <exclude reference="gnB-bv-R9F"/>
+                                <exclude reference="ohY-a2-LPY"/>
+                                <exclude reference="Dtz-fx-y0O"/>
+                                <exclude reference="kUP-Bp-b0m"/>
+                                <exclude reference="zt5-vD-1cA"/>
                                 <exclude reference="Qjv-Bl-URw"/>
                                 <exclude reference="WWH-Vn-cGn"/>
                                 <exclude reference="hB7-yJ-82H"/>
+                                <exclude reference="3FD-55-MhK"/>
+                                <exclude reference="ijV-RG-0pb"/>
                                 <exclude reference="HVZ-hs-myp"/>
                                 <exclude reference="UiB-Wg-1fk"/>
                                 <exclude reference="bBp-ZN-i7o"/>
-                                <exclude reference="3FD-55-MhK"/>
-                                <exclude reference="ijV-RG-0pb"/>
-                                <exclude reference="Th3-1b-8dB"/>
-                                <exclude reference="yvj-uc-IET"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -143,25 +143,25 @@
                                 <include reference="gMD-NW-5Ez"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Dtz-fx-y0O"/>
-                                <include reference="kUP-Bp-b0m"/>
-                                <include reference="zt5-vD-1cA"/>
-                                <include reference="YCa-Us-nVv"/>
-                                <include reference="gnB-bv-R9F"/>
-                                <include reference="ohY-a2-LPY"/>
+                                <include reference="Th3-1b-8dB"/>
+                                <include reference="yvj-uc-IET"/>
                                 <include reference="KJw-W7-dV1"/>
                                 <include reference="NLB-rZ-Wjb"/>
                                 <include reference="iPy-Ow-62J"/>
+                                <include reference="YCa-Us-nVv"/>
+                                <include reference="gnB-bv-R9F"/>
+                                <include reference="ohY-a2-LPY"/>
+                                <include reference="Dtz-fx-y0O"/>
+                                <include reference="kUP-Bp-b0m"/>
+                                <include reference="zt5-vD-1cA"/>
                                 <include reference="Qjv-Bl-URw"/>
                                 <include reference="WWH-Vn-cGn"/>
                                 <include reference="hB7-yJ-82H"/>
+                                <include reference="3FD-55-MhK"/>
+                                <include reference="ijV-RG-0pb"/>
                                 <include reference="HVZ-hs-myp"/>
                                 <include reference="UiB-Wg-1fk"/>
                                 <include reference="bBp-ZN-i7o"/>
-                                <include reference="3FD-55-MhK"/>
-                                <include reference="ijV-RG-0pb"/>
-                                <include reference="Th3-1b-8dB"/>
-                                <include reference="yvj-uc-IET"/>
                             </mask>
                         </variation>
                     </view>
@@ -176,36 +176,37 @@
             </objects>
             <point key="canvasLocation" x="-457.5" y="-12"/>
         </scene>
-        <!--Home Table View Controller-->
+        <!--Hometest-->
         <scene sceneID="5re-wl-fWJ">
             <objects>
-                <tableViewController id="WZF-QP-TjQ" customClass="homeTableViewController" customModule="selfie" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7Q6-EA-s6t">
+                <tableViewController id="WZF-QP-TjQ" customClass="hometest" customModule="selfie" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7Q6-EA-s6t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <sections>
-                            <tableViewSection id="ne9-pj-tOZ">
-                                <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="U6g-vM-sW6" style="IBUITableViewCellStyleDefault" id="6dD-Pm-1Dq">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6dD-Pm-1Dq" id="Xer-Ec-cCY">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="HOME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U6g-vM-sW6">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    </variation>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCell" textLabel="U6g-vM-sW6" style="IBUITableViewCellStyleDefault" id="6dD-Pm-1Dq" customClass="PFTableViewCell">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6dD-Pm-1Dq" id="Xer-Ec-cCY">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="HOME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U6g-vM-sW6">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="widthClass=compact">
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            </variation>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="pCN-DL-hzd" kind="show" identifier="DetailSegue" id="fsF-60-h0K"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="WZF-QP-TjQ" id="Tkr-IV-HsP"/>
                             <outlet property="delegate" destination="WZF-QP-TjQ" id="cFa-Aa-cxz"/>
@@ -214,14 +215,116 @@
                     <navigationItem key="navigationItem" id="Uxq-1X-2wq">
                         <barButtonItem key="rightBarButtonItem" title="LogOut" id="oEI-WP-7kM">
                             <connections>
-                                <action selector="logoutButton:" destination="WZF-QP-TjQ" id="w8Q-Rs-JUx"/>
+                                <action selector="logoutButton:" destination="WZF-QP-TjQ" id="YsJ-Rl-elp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k7l-qW-U3c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="852" y="712"/>
+            <point key="canvasLocation" x="691.5" y="721"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="2cu-ob-6sj">
+            <objects>
+                <viewController storyboardIdentifier="detailViewController" id="pCN-DL-hzd" customClass="DetailViewController" customModule="selfie" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VNV-Gr-2BE"/>
+                        <viewControllerLayoutGuide type="bottom" id="SDO-Js-z7G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1F2-2q-e5D">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0U-UL-PdG">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="pQV-mB-LgK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="pQV-mB-LgK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="pQV-mB-LgK"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zw-J3-EwX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YOa-l5-rnT">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="112" width="97" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uPb-Vn-bXX">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="183" width="97" height="30"/>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Zw-J3-EwX" firstAttribute="leading" secondItem="P0U-UL-PdG" secondAttribute="leading" id="OvP-YF-SFN"/>
+                            <constraint firstItem="6Zw-J3-EwX" firstAttribute="trailing" secondItem="P0U-UL-PdG" secondAttribute="trailing" id="QtS-bx-ZpI"/>
+                            <constraint firstItem="P0U-UL-PdG" firstAttribute="top" secondItem="VNV-Gr-2BE" secondAttribute="bottom" constant="52" id="VJ6-Wx-99o"/>
+                            <constraint firstItem="P0U-UL-PdG" firstAttribute="leading" secondItem="1F2-2q-e5D" secondAttribute="leadingMargin" constant="37" id="hqa-Le-cQZ"/>
+                            <constraint firstItem="6Zw-J3-EwX" firstAttribute="top" secondItem="P0U-UL-PdG" secondAttribute="bottom" constant="46" id="ld0-KC-8uX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="P0U-UL-PdG"/>
+                                <exclude reference="6Zw-J3-EwX"/>
+                                <exclude reference="YOa-l5-rnT"/>
+                                <exclude reference="uPb-Vn-bXX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="VJ6-Wx-99o"/>
+                                <exclude reference="hqa-Le-cQZ"/>
+                                <exclude reference="OvP-YF-SFN"/>
+                                <exclude reference="QtS-bx-ZpI"/>
+                                <exclude reference="ld0-KC-8uX"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="P0U-UL-PdG"/>
+                                <include reference="6Zw-J3-EwX"/>
+                                <include reference="YOa-l5-rnT"/>
+                                <include reference="uPb-Vn-bXX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="VJ6-Wx-99o"/>
+                                <include reference="hqa-Le-cQZ"/>
+                                <include reference="OvP-YF-SFN"/>
+                                <include reference="QtS-bx-ZpI"/>
+                                <include reference="ld0-KC-8uX"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="From" destination="uPb-Vn-bXX" id="WX6-FY-qGD"/>
+                        <outlet property="To" destination="YOa-l5-rnT" id="cxI-6s-ZTF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5l-Mx-LA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1359" y="721"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="kSl-CF-gAQ">
@@ -232,6 +335,7 @@
                         <viewControllerLayoutGuide type="bottom" id="cKZ-i6-Kzb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="oTj-uu-yqW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p3P-l1-sWu">
@@ -285,7 +389,7 @@
                                     <constraint firstAttribute="width" constant="144" id="9I0-zD-qyM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -325,14 +429,14 @@
                                 <exclude reference="p3N-rF-JW5"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="6G7-xx-JOm"/>
+                                <exclude reference="Hej-AG-ZFV"/>
+                                <exclude reference="Nzi-tW-61s"/>
                                 <exclude reference="81D-hD-7sb"/>
                                 <exclude reference="ArE-Uc-ltU"/>
                                 <exclude reference="GwE-LD-BYb"/>
                                 <exclude reference="Lqi-32-IIe"/>
                                 <exclude reference="pN0-XB-yO1"/>
-                                <exclude reference="Hej-AG-ZFV"/>
-                                <exclude reference="Nzi-tW-61s"/>
-                                <exclude reference="6G7-xx-JOm"/>
                                 <exclude reference="AVR-ig-d2M"/>
                             </mask>
                         </variation>
@@ -344,14 +448,14 @@
                                 <include reference="p3N-rF-JW5"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="6G7-xx-JOm"/>
+                                <include reference="Hej-AG-ZFV"/>
+                                <include reference="Nzi-tW-61s"/>
                                 <include reference="81D-hD-7sb"/>
                                 <include reference="ArE-Uc-ltU"/>
                                 <include reference="GwE-LD-BYb"/>
                                 <include reference="Lqi-32-IIe"/>
                                 <include reference="pN0-XB-yO1"/>
-                                <include reference="Hej-AG-ZFV"/>
-                                <include reference="Nzi-tW-61s"/>
-                                <include reference="6G7-xx-JOm"/>
                                 <include reference="AVR-ig-d2M"/>
                             </mask>
                         </variation>

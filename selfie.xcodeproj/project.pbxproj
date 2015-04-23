@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC2A4FD01AE44ACB0014D08F /* Locksmith.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A4FCF1AE44ACB0014D08F /* Locksmith.swift */; };
-		FC2A4FD21AE44B120014D08F /* LockSmithRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2A4FD11AE44B120014D08F /* LockSmithRequest.swift */; };
 		FC4B51911ADD7A2600287C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B51901ADD7A2600287C69 /* AppDelegate.swift */; };
 		FC4B51941ADD7A2600287C69 /* selfie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC4B51921ADD7A2600287C69 /* selfie.xcdatamodeld */; };
 		FC4B51961ADD7A2600287C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B51951ADD7A2600287C69 /* ViewController.swift */; };
-		FC4B51991ADD7A2600287C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4B51971ADD7A2600287C69 /* Main.storyboard */; };
 		FC4B519B1ADD7A2600287C69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4B519A1ADD7A2600287C69 /* Images.xcassets */; };
 		FC4B519E1ADD7A2600287C69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B519C1ADD7A2600287C69 /* LaunchScreen.xib */; };
 		FC4B51AA1ADD7A2700287C69 /* selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B51A91ADD7A2700287C69 /* selfieTests.swift */; };
+		FC594A7C1AE99D0D002698C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC594A7B1AE99D0D002698C3 /* DetailViewController.swift */; };
+		FC594A7D1AE9A386002698C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4B51971ADD7A2600287C69 /* Main.storyboard */; };
 		FC65D1621AE947A400F8A56A /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65D1611AE947A400F8A56A /* loginViewController.swift */; };
-		FC65D1641AE94F5B00F8A56A /* homeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65D1631AE94F5B00F8A56A /* homeTableViewController.swift */; };
+		FC65D1661AE9571C00F8A56A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC65D1651AE9571C00F8A56A /* CFNetwork.framework */; };
+		FC65D16C1AE95C0D00F8A56A /* hometest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65D16B1AE95C0D00F8A56A /* hometest.swift */; };
 		FCCB80A71ADE19F0000D43F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCB80A61ADE19F0000D43F8 /* libsqlite3.dylib */; };
 		FCE0EA591ADE0C73008E430B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE0EA581ADE0C73008E430B /* AudioToolbox.framework */; };
 		FCE0EA5B1ADE0C83008E430B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE0EA5A1ADE0C83008E430B /* Foundation.framework */; };
@@ -48,8 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC2A4FCF1AE44ACB0014D08F /* Locksmith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locksmith.swift; sourceTree = "<group>"; };
-		FC2A4FD11AE44B120014D08F /* LockSmithRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockSmithRequest.swift; sourceTree = "<group>"; };
 		FC4B518B1ADD7A2600287C69 /* selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4B518F1ADD7A2600287C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4B51901ADD7A2600287C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,8 +59,10 @@
 		FC4B51A31ADD7A2700287C69 /* selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selfieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4B51A81ADD7A2700287C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4B51A91ADD7A2700287C69 /* selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfieTests.swift; sourceTree = "<group>"; };
+		FC594A7B1AE99D0D002698C3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FC65D1611AE947A400F8A56A /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		FC65D1631AE94F5B00F8A56A /* homeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewController.swift; sourceTree = "<group>"; };
+		FC65D1651AE9571C00F8A56A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FC65D16B1AE95C0D00F8A56A /* hometest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hometest.swift; sourceTree = "<group>"; };
 		FCCB80A61ADE19F0000D43F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		FCE0EA581ADE0C73008E430B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FCE0EA5A1ADE0C83008E430B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,13 +88,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE0EA6B1ADE0CCB008E430B /* SystemConfiguration.framework in Frameworks */,
+				FCE0EA631ADE0CA8008E430B /* MobileCoreServices.framework in Frameworks */,
+				FC65D1661AE9571C00F8A56A /* CFNetwork.framework in Frameworks */,
 				FCCB80A71ADE19F0000D43F8 /* libsqlite3.dylib in Frameworks */,
 				FCE0EA761ADE0D82008E430B /* ParseFacebookUtils.framework in Frameworks */,
-				FCE0EA6B1ADE0CCB008E430B /* SystemConfiguration.framework in Frameworks */,
 				FCE0EA691ADE0CC0008E430B /* StoreKit.framework in Frameworks */,
 				FCE0EA671ADE0CB7008E430B /* Security.framework in Frameworks */,
 				FCE0EA651ADE0CB1008E430B /* QuartzCore.framework in Frameworks */,
-				FCE0EA631ADE0CA8008E430B /* MobileCoreServices.framework in Frameworks */,
 				FCE0EA781ADE0D82008E430B /* ParseUI.framework in Frameworks */,
 				FCE0EA611ADE0CA0008E430B /* libz.dylib in Frameworks */,
 				FCE0EA5F1ADE0C94008E430B /* CoreLocation.framework in Frameworks */,
@@ -121,8 +122,7 @@
 		FC4B51821ADD7A2600287C69 = {
 			isa = PBXGroup;
 			children = (
-				FC2A4FCF1AE44ACB0014D08F /* Locksmith.swift */,
-				FC2A4FD11AE44B120014D08F /* LockSmithRequest.swift */,
+				FC65D1651AE9571C00F8A56A /* CFNetwork.framework */,
 				FCCB80A61ADE19F0000D43F8 /* libsqlite3.dylib */,
 				FCE0EA6C1ADE0D82008E430B /* parse-library-1.7.1 */,
 				FCE0EA6A1ADE0CCB008E430B /* SystemConfiguration.framework */,
@@ -162,7 +162,8 @@
 				FC4B518E1ADD7A2600287C69 /* Supporting Files */,
 				FCE0EA791ADE0E3B008E430B /* selfie-Bridging-Header.h */,
 				FC65D1611AE947A400F8A56A /* loginViewController.swift */,
-				FC65D1631AE94F5B00F8A56A /* homeTableViewController.swift */,
+				FC65D16B1AE95C0D00F8A56A /* hometest.swift */,
+				FC594A7B1AE99D0D002698C3 /* DetailViewController.swift */,
 			);
 			path = selfie;
 			sourceTree = "<group>";
@@ -285,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4B51991ADD7A2600287C69 /* Main.storyboard in Resources */,
+				FC594A7D1AE9A386002698C3 /* Main.storyboard in Resources */,
 				FC4B519E1ADD7A2600287C69 /* LaunchScreen.xib in Resources */,
 				FC4B519B1ADD7A2600287C69 /* Images.xcassets in Resources */,
 			);
@@ -305,13 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2A4FD21AE44B120014D08F /* LockSmithRequest.swift in Sources */,
-				FC2A4FD01AE44ACB0014D08F /* Locksmith.swift in Sources */,
 				FC65D1621AE947A400F8A56A /* loginViewController.swift in Sources */,
 				FC4B51961ADD7A2600287C69 /* ViewController.swift in Sources */,
 				FC4B51911ADD7A2600287C69 /* AppDelegate.swift in Sources */,
-				FC65D1641AE94F5B00F8A56A /* homeTableViewController.swift in Sources */,
+				FC65D16C1AE95C0D00F8A56A /* hometest.swift in Sources */,
 				FC4B51941ADD7A2600287C69 /* selfie.xcdatamodeld in Sources */,
+				FC594A7C1AE99D0D002698C3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
