@@ -15,6 +15,9 @@
 		FC4B51AA1ADD7A2700287C69 /* selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B51A91ADD7A2700287C69 /* selfieTests.swift */; };
 		FC594A7C1AE99D0D002698C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC594A7B1AE99D0D002698C3 /* DetailViewController.swift */; };
 		FC594A7D1AE9A386002698C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4B51971ADD7A2600287C69 /* Main.storyboard */; };
+		FC594A7F1AE9AC83002698C3 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC594A7E1AE9AC83002698C3 /* MainTableViewController.swift */; };
+		FC594A831AE9B6B8002698C3 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC594A821AE9B6B8002698C3 /* ContactViewController.swift */; };
+		FC594A851AE9BC76002698C3 /* GiverideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC594A841AE9BC76002698C3 /* GiverideViewController.swift */; };
 		FC65D1621AE947A400F8A56A /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65D1611AE947A400F8A56A /* loginViewController.swift */; };
 		FC65D1661AE9571C00F8A56A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC65D1651AE9571C00F8A56A /* CFNetwork.framework */; };
 		FC65D16C1AE95C0D00F8A56A /* hometest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC65D16B1AE95C0D00F8A56A /* hometest.swift */; };
@@ -60,6 +63,9 @@
 		FC4B51A81ADD7A2700287C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4B51A91ADD7A2700287C69 /* selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfieTests.swift; sourceTree = "<group>"; };
 		FC594A7B1AE99D0D002698C3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FC594A7E1AE9AC83002698C3 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		FC594A821AE9B6B8002698C3 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		FC594A841AE9BC76002698C3 /* GiverideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiverideViewController.swift; sourceTree = "<group>"; };
 		FC65D1611AE947A400F8A56A /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		FC65D1651AE9571C00F8A56A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FC65D16B1AE95C0D00F8A56A /* hometest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hometest.swift; sourceTree = "<group>"; };
@@ -153,17 +159,14 @@
 		FC4B518D1ADD7A2600287C69 /* selfie */ = {
 			isa = PBXGroup;
 			children = (
+				FC594A861AE9C096002698C3 /* controllers */,
 				FC4B51901ADD7A2600287C69 /* AppDelegate.swift */,
-				FC4B51951ADD7A2600287C69 /* ViewController.swift */,
 				FC4B51971ADD7A2600287C69 /* Main.storyboard */,
 				FC4B519A1ADD7A2600287C69 /* Images.xcassets */,
 				FC4B519C1ADD7A2600287C69 /* LaunchScreen.xib */,
 				FC4B51921ADD7A2600287C69 /* selfie.xcdatamodeld */,
 				FC4B518E1ADD7A2600287C69 /* Supporting Files */,
 				FCE0EA791ADE0E3B008E430B /* selfie-Bridging-Header.h */,
-				FC65D1611AE947A400F8A56A /* loginViewController.swift */,
-				FC65D16B1AE95C0D00F8A56A /* hometest.swift */,
-				FC594A7B1AE99D0D002698C3 /* DetailViewController.swift */,
 			);
 			path = selfie;
 			sourceTree = "<group>";
@@ -191,6 +194,20 @@
 				FC4B51A81ADD7A2700287C69 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC594A861AE9C096002698C3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC594A841AE9BC76002698C3 /* GiverideViewController.swift */,
+				FC4B51951ADD7A2600287C69 /* ViewController.swift */,
+				FC594A821AE9B6B8002698C3 /* ContactViewController.swift */,
+				FC594A7E1AE9AC83002698C3 /* MainTableViewController.swift */,
+				FC594A7B1AE99D0D002698C3 /* DetailViewController.swift */,
+				FC65D1611AE947A400F8A56A /* loginViewController.swift */,
+				FC65D16B1AE95C0D00F8A56A /* hometest.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 		FCE0EA6C1ADE0D82008E430B /* parse-library-1.7.1 */ = {
@@ -307,11 +324,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC65D1621AE947A400F8A56A /* loginViewController.swift in Sources */,
+				FC594A831AE9B6B8002698C3 /* ContactViewController.swift in Sources */,
 				FC4B51961ADD7A2600287C69 /* ViewController.swift in Sources */,
 				FC4B51911ADD7A2600287C69 /* AppDelegate.swift in Sources */,
 				FC65D16C1AE95C0D00F8A56A /* hometest.swift in Sources */,
 				FC4B51941ADD7A2600287C69 /* selfie.xcdatamodeld in Sources */,
+				FC594A851AE9BC76002698C3 /* GiverideViewController.swift in Sources */,
 				FC594A7C1AE99D0D002698C3 /* DetailViewController.swift in Sources */,
+				FC594A7F1AE9AC83002698C3 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

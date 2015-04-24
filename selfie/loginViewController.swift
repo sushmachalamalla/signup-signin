@@ -31,9 +31,9 @@ class loginViewController: UIViewController {
             if user != nil {
                 // Yes, User Exists
                 self.loginInitialLabel.text = "User Exists"
-                /*dispatch_async(dispatch_get_main_queue()) {
-                    self.performSegueWithIdentifier("homeSegue", sender: self)
-               }*/
+                dispatch_async(dispatch_get_main_queue()) {
+                    self.performSegueWithIdentifier("loginSegue", sender: self)
+               }
 
                 
             } else {
